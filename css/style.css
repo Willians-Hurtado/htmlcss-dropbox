@@ -15,12 +15,13 @@ body{
 
 img{
     max-width: 100%;
+    
 }
 
 /* #region column */
 [class^="col"]
 {
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .col{
@@ -164,8 +165,9 @@ ul
     background-color: #0061fe;
     color: white;
     border: none;
-    padding: 0.3rem 0.6rem;
+    padding: 0.5rem 0.6rem;
 }
+
 
 /* #endregion header */
 
@@ -174,10 +176,11 @@ ul
 /* #region jumbotron */
 .container{
     background-color: #b4d0e6;
+    min-height: 5rem;
 }
 
 .margin-jf{
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
@@ -185,16 +188,61 @@ ul
     padding: 3rem 0 2rem;
 }
 
-.out{
-    margin-bottom: -1rem;
+
+h1{
+    font-size: 4.5rem;
 }
+
+p{
+    margin-bottom: 1.5rem;
+}
+
+.space{
+    display: flex;
+    margin: 1.5rem 0 2rem;
+}
+
+.arrow-down{
+    font-size: 3rem;
+}
+
+.out{
+   margin-bottom: -6.5rem;
+}
+
 /* #endregion jumbotron */
 
 /* #region plan options */
 .margin-main{
-    width: 70%;
+    width: 60%;
     margin: auto;
     padding-top: 3rem;
+}
+
+h2{
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.space-2{
+    margin-top: 6rem;
+}
+
+.circle{
+    border: 3px solid #0162ff;
+    border-radius: 50%;
+    color: transparent;
+    font-size: 10px;
+}
+.circle-2{
+    border: 2px solid lightgrey;
+    border-radius: 50%;
+    color: transparent;
+    font-size: 10px;
+}
+
+.title-plan span{
+    padding-right: 2rem;
 }
 /* #endregion plan options */
 
