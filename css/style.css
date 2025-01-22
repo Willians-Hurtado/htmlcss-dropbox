@@ -4,10 +4,17 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .row{
     display: flex;
     flex-wrap: wrap;
     margin: 0 -1rem;
+}
+
+img{
+    max-width: 100%;
 }
 
 /* #region column */
@@ -27,7 +34,7 @@
 }
 
 .col-2{
-    width: calc(200% /12 * 2);
+    width: calc(100% /12 * 2);
     
 }
 
@@ -84,15 +91,14 @@
 
 /* #region debug */
 .debug{
+
     .head-nav{
         background-color: #b8c1dc;
-        min-height: 3rem;
 
         .left,
         .right{
             background-color: #b2a216;
-            width: 5rem;
-            height: 1rem;
+            min-width: 5rem;
             
         } 
         
@@ -122,6 +128,10 @@
         background-color: #87b434;
         min-height:3rem
     }
+
+    .title-feedbacks{
+        background-color: #87b434;
+    }
 }
 /* #endregion debug */
 
@@ -132,9 +142,31 @@
     align-items: center;
     .left,
     .right{
-        padding: 0 0.5rem;
+        align-items: center;
+        padding: 1rem 2rem;
+        display: flex;
     }
 }
+
+ul
+{
+    display: flex;
+    list-style: none;
+    a{
+        text-decoration: none;
+        padding: 1rem;
+        color: black;
+        
+    }
+}
+
+.button{
+    background-color: #0061fe;
+    color: white;
+    border: none;
+    padding: 0.3rem 0.6rem;
+}
+
 /* #endregion header */
 
 /* #region main */
@@ -174,11 +206,30 @@
 /* #endregion enterprise */
 
 /* #region dropbox business */
-
+.title-drop-business{
+    margin-bottom: 3rem;
+}
 /* #endregion dropbox business */
 
+/* #region feedbacks */
+.title-feedbacks{
+    margin-top: 9rem;
+    margin-bottom: 6rem;
+}
 
-
-
+/* #endregion feedbacks */
 
 /* #endregion main */
+
+/* #region footer */
+.back-footer{
+    background-color: #000000;
+}
+
+
+/* #endregion footer */
+
+
+
+
+
