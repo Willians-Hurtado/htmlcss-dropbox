@@ -368,6 +368,10 @@ h3{
 .title-feedbacks{
     margin-top: 9rem;
     margin-bottom: 6rem;
+    
+    .feedbacks{
+        padding-top: 1rem;
+    }
 }
 
 /* #endregion feedbacks */
@@ -377,7 +381,43 @@ h3{
 /* #region footer */
 .back-footer{
     background-color: #000000;
+    
+    h3{
+        color: white;
+    }
+    ul{
+        color: lightgray;
+        list-style: none;
+       li{
+        padding: 0.3rem 0;
+       }
+    }
 }
+
+.menu-foot{
+    display: flex;
+    display: inline-block;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0;
+
+    
+}
+
+footer hr {
+    color: lightgray;
+    width: 15%;
+}
+
+footer p {
+    color: lightgray;
+    padding: 2.5rem 0;
+}
+
 
 
 /* #endregion footer */
