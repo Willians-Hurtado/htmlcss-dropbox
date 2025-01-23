@@ -207,7 +207,7 @@ h1{
 p{
     margin-bottom: 1.5rem;
     padding-bottom: 1rem;
-    line-height: 1.7rem;
+    line-height: 1.5rem;
 }
 
 .space{
@@ -351,6 +351,10 @@ h3{
 .btn-partner{
     background-color: white;
     padding: 0.5rem;
+}
+
+.dropbox-business{
+    padding-top: 0.5rem;
 }
 /* #endregion enterprise */
 
