@@ -206,6 +206,7 @@ h1{
 
 p{
     margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
     line-height: 1.7rem;
 }
 
@@ -321,9 +322,35 @@ h3{
 /* #endregion plan options */
 
 /* #region enterprise */
+.title-enterprise{
+    text-align: center;
+}
+
+.btn-enterprise{
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+.office{
+    padding: 0 2rem;
+}
+
+.card-enterprise{
+    margin-top: 0;
+}
 .partner{
     margin-top: 9rem;
     margin-bottom: 6rem;
+}
+
+.p-partner{
+    padding-top: 3rem;
+}
+
+.btn-partner{
+    background-color: white;
+    padding: 0.5rem;
 }
 /* #endregion enterprise */
 
